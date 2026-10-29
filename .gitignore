@@ -1,0 +1,38 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+/vendor/
+
+# Runtime data and uploaded files
+/writable/cache/*
+!/writable/cache/index.html
+/writable/logs/*
+!/writable/logs/index.html
+/writable/session/*
+!/writable/session/index.html
+/writable/uploads/*
+!/writable/uploads/index.html
+/writable/debugbar/*
+!/writable/debugbar/index.html
+php_errors.log
+
+# Local tools and OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.iml
+.php-version
+
+# Test/build output
+/tests/coverage*
+/results/
+/phpunit
+/phpunit.xml
+
+# Local Git metadata should not be nested into another repository
+.git/
